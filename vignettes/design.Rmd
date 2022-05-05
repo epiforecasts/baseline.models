@@ -1,0 +1,43 @@
+---
+title: "Design principles"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Design principles}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+This package have been designed following clear, a priori defined, design principles detailed in this vignette.
+
+## Priorities
+
+Because we don't expect that this step will be a bottleneck in any analysis, maintainability, ease of use and extensibility should be prioritised over raw performance.
+
+## Inputs and outputs
+
+### Classes
+
+Work with tsibble objects
+
+### Inputs
+
+#### Outputs
+
+The output should be an object of the same class as the input, with the same columns, and additional rows.
+
+Samples? Quantiles? Any? Other?
+
+## Scope
+
+The goal is this package is solely to create baseline projections. All other, albeit related, tasks, such as plotting, scoring, etc. should be left to other packages.
+
+## Extensibility & community contributions
+
+It should be possible for anyone to add a new baseline models (provided it respects the criteria defined in the paper) in a plug-and-play manner, by adding a single function, without having to tweak any other part of the codebase.
