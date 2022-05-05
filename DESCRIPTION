@@ -1,0 +1,41 @@
+Package: baseline.models
+Title: Simulate Various Baseline Models for Epidemiological Time Series
+Version: 0.0.0.9000
+Authors@R: c(
+    person("Hugo", "Gruson",
+           email = "hugo.gruson+R@normalesup.org", 
+           role = c("aut", "cre", "cph"),
+           comment = c(ORCID = "0000-0002-4094-1476")),
+    person("Sam", "Abbott", ,
+           role = c("aut", "cph"),
+           comment = c(ORCID = "0000-0001-8057-8037")),
+    person("Katharine", "Sherratt", 
+           role = c("aut", "cph"),
+           comment = c(ORCID = "0000-0003-2049-3423")),
+    person("Sebastian", "Funk", 
+           role = c("aut", "cph"),
+           comment = c(ORCID = "0000-0002-2842-3406")),
+    person("Hannah", "Choi", 
+           role = c("aut", "cph"),
+           comment = c(ORCID = "0000-0001-9391-9697")),
+    person("Sophie", "Meakin", 
+           role = c("aut", "cph"),
+           comment = c(ORCID = "0000-0002-6385-2652")),
+    person("Nikos", "Bosse", 
+           role = c("aut", "cph"),
+           comment = c(ORCID = "0000-0002-7750-5280")),
+    person("James", "Munday",
+           role = c("aut", "cph")),
+    person("Akira", "Endo", 
+           role = c("aut", "cph"),
+           comment = c(ORCID = "0000-0001-6377-7296")),
+    person("Friederike", "Becker", 
+           role = c("aut", "cph"))
+    )
+Description: What the package does (one paragraph).
+License: MIT + file LICENSE
+Config/testthat/edition: 3
+Encoding: UTF-8
+Language: en-GB
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
