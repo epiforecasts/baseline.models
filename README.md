@@ -4,6 +4,8 @@
 # baseline.models
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/epiforecasts/baseline.models/workflows/R-CMD-check/badge.svg)](https://github.com/epiforecasts/baseline.models/actions)
 <!-- badges: end -->
 
 The goal of baseline.models is to …
